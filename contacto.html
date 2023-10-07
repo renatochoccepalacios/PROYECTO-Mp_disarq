@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mp Disarq</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/LOG.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Encabezado -->
+    <header class="header">
+        <nav class="nav">
+          <div class="navegacion-marca">
+          <a href="inicio.html" class="logo nav-link">
+              <img class="header-image" src="images/piaFinal.png">
+          </a>
+        </div>
+          <button class="nav-toggle" aria-label="Abrir menú">
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul class="nav-menu">
+            <li class="nav-menu-item">
+              <a href="index.html" class="nav-menu-link nav-link">Home</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="Proyectos.html" target="_self" class="nav-menu-link nav-link">Proyectos</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="servicio.html" class="nav-menu-link nav-link">Servicio</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="#formulario-h1" class="nav-menu-link nav-link">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+        
+      </header>
+
+      <div class="contenedor-trabajo">
+        <h2 class="contenedor-trabajo-texto" style="font-family: 'Montserrat', sans-serif;">¿NECESITAS UN PROYECTO? HABLA CON NOSOTROS:</h2>
+      </div>
+      
+
+  <!-- formulario -->
+<div class="formulario">
+    <h1 id="formulario-h1" >Contacto</h1>
+    <form class="formulario" action="https://formsubmit.co/pianahir23@gmail.com" method="POST" enctype="application/x-www-form-urlencoded">
+      <label for="nombre" class="formulario__label"></label>
+      <input type="text" class="formulario__input" name="nombre" placeholder="Nombre" ><br><br>
+       
+      <label for="telefono de contacto" class="formulario__label"></label>
+      <input type="number" class="formulario__input" name="telefono de contacto" placeholder="Telefono de contacto" ><br><br>
+
+      <label for="email" class="formulario__label"></label>
+      <input class="formulario__input" type="email" name="email" type="url" placeholder="Correo electronico"><br><br>
+
+      <label for="asunto" class="formulario__label"></label>
+      <input class="formulario__input" type="text" name="asunto" placeholder="Asunto"><br><br>
+
+      <textarea id="texto" class="formulario__input " name="mensaje" rows="10" placeholder="Mensaje" ></textarea><br><br>
+      
+      <!-- <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" class="formulario_input">Mensaje</textarea> -->
+      <!-- <button class="buttom">Enviar</button> -->
+      <input type="submit" class="buttom" value="Enviar">
+
+      <!-- a que pagina queremos que nos envie luego de enviar el gmail -->
+       <input type="hidden" name="_next" value="file:///C:/Users/VEGETTA%20Y%20WILLY/Documents/PROYECTOS/mp_disarq/index.html">
+      <input type="hidden" name="_captcha" value="false">
+  </form>
+</div>
+
+    
+
+    
+
+
+
+
+
+    
+    
+    <footer id="footer">
+      <div class="redes">
+        <a href="https://www.instagram.com/mp_disarq/" class="fa fa-instagram" target="_blank"></a>
+        <a href="" class="fa fa-facebook" target="_blank"></a>
+        <a href="https://api.whatsapp.com/send?phone=1140382233&text=hola%21" class="fa fa-whatsapp" target="_blank"></a>
+      </div>
+      <!-- <p>Mp Disarq &copy; 2023 </p>
+      <p>Buenos Aires, Argentina</p> -->
+      <p>Buenos Aires | Argentina | Pilar</p>
+      <p>Aviso Legal | Politica de Privacidad | Politica de Cookies</p>
+      <p>&copy;2023 Mp Disarq | Maria Pia Disarq</p>
+      
+      
+    </footer>
+    
+
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
